@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="./src/images/Favicon MK.png">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+    <audio id="somScorpion" src="./src/sounds/scorpions.wav"></audio>
+   <audio id="somSubzero" src="./src/sounds/Subzero.wav"></audio>
+
+    <title>Mortal Kombat</title>
+</head>
+
+<body>
+    <main class="personagens">
+        <div class="personagem selecionado">
+            <img class="imagem" src="./src/images/Fundo Scorpion.jpg" alt="Imagem de fundo Scorpion">
+            <div class="conteudo">
+                <i class="logo"></i>
+                <h2 class="nome-personagem">Scorpion</h2>
+                <Grão-mestre class="descricao"> Grão-mestre Scorpion dos Shirai Ryu. Guiado pela fúria, Hanzo Hasashi passou por enormes dificuldades para vingar sua família e seu clã, sem descansar até acabar com o assassino Quan Chi. Ele agora lidera um novo clã Shirai Ryu, vingando aqueles que não podem se vingar.</p>
+                <audio id="somScorpion" src="./src/sounds/scorpions.wav"></audio>
+            </div>
+        </div>
+
+        <div class="personagem">
+            <img class="imagem" src="./src/images/Fundo Subzero.jpg" alt="Imagem de fundo Subzero">
+            <div class="conteudo">
+                <i class="logo"></i>
+                <h2 class="nome-personagem">Subzero</h2>
+                <p class="descricao">Grão-mestre do clã Lin Kuei. Kuai Liang venceu a morte para redimir seu clã do mal cometido por Sektor e pelos Lin Kuei cibernéticos. Ele reconstruiu os Lin Kuei e negociou a paz com os rivais Shirai Ryu. Agora, ele espera finalmente encerrar o capítulo pecaminoso do passado dos Lin Kuei.</p>
+                <audio id="somSubzero" src="./src/sounds/Subzero.wav"></audio>
+            </div>
+        </div>
+
+        <div class="personagem">
+            <img class="imagem" src="./src/images/Fundo Jhonny Cage.jpg" alt="Imagem de fundo Jhonny Cage">
+            <div class="conteudo">
+                <i class="logo"></i>
+                <h2 class="nome-personagem">Jhonny Cage</h2>
+                <p class="descricao">Celebridade de segundo escalão que nunca recebeu qualquer prêmio como ator. Após uma série de continuações de baixo orçamento do filme Escolinha de Ninjas, Johnny Cage atingiu o auge da carreira aos 28 anos. Agora, ele luta contra todas as probabilidades para salvar o Plano Terreno e provar que é um herói ainda mais corajoso na vida real que nas telas.</p>
+            </div>
+        </div>
+
+        <div class="personagem">
+            <img class="imagem" src="./src/images/Fundo Kitana.jpg" alt="Imagem de fundo Kitana">
+            <div class="conteudo">
+                <i class="logo"></i>
+                <h2 class="nome-personagem">Kitana</h2>
+                <p class="descricao">Assassina de 10.000 anos e princesa da Exoterra. Shao Kahn casou com a mãe de Kitana e criou a menina como sua herdeira, escondendo o fato de que assassinou o pai dela para conquistar Edenia. Agora que a verdade veio à tona, Kitana luta para vingar o pai.</p>
+            </div>
+        </div>
+
+        <div class="personagem">
+            <img class="imagem" src="./src/images/Fundo Mileena.jpg" alt="Imagem de fundo Mileena">
+            <div class="conteudo">
+                <i class="logo"></i>
+                <h2 class="nome-personagem">Mileena</h2>
+                <p class="descricao">Mileena é o produto dos diabolicos experimentos de clonagem do Shang Tsung: uma mistura perfeita da ferocidade Tarkatana com uma graciosidade atlética. Trazida adiante no tempo por Kronika, Mileena soube de seu trágico futuro. Seus inimigos agora devem se submeter a ela ou morrer.</p>
+            </div>
+        </div>
+
+        <div class="personagem">
+            <img class="imagem" src="./src/images/Fundo Sonya Blade.jpg" alt="Imagem de fundo Sonya Blade">
+            <div class="conteudo">
+                <i class="logo"></i>
+                <h2 class="nome-personagem">Sonya Blade</h2>
+                <p class="descricao">Oficial condecorada das Forças Especiais. Sonya enfrentou o torneio Mortal Kombat, defendeu o Plano Terreno e resgatou seu parceiro, Jax Briggs. Séria até demais, ela não descansa, preferindo manter a vigilância até que todos os planos estejam em segurança.</p>
+            </div>
+        </div>
+    </main>
+    <ul class="botoes">
+        <li>
+            <button class="botao selecionado" onclick="playSom('')">
+                <img src="./src/images/Icon Scorpion.jpg" alt="Icon Scorpion">
+            </button>
+        </li>
+        <li>
+            <button class="botao">
+                <img src="./src/images/Icon Subzero.jpg" alt="Icon Subzero">
+            </button>
+        </li>
+        <li>
+            <button class="botao">
+                <img src="./src/images/Icon Jhonny Cage.jpg" alt="Icon Jhonny Cage">
+            </button>
+        </li>
+        <li>
+            <button class="botao">
+                <img src="./src/images/Icon Kitana.jpg" alt="Icon Kitana">
+            </button>
+        </li>
+        <li>
+            <button class="botao">
+                <img src="./src/images/Icon Mileena.jpg" alt="Icon Mileena">
+            </button>
+        </li>
+        <li>
+            <button class="botao">
+                <img src="./src/images/Icon Sonya Blade.jpg" alt="Icon Sonya Blade">
+            </button>
+        </li>
+    </ul>
+    
+    <script src="./src/js/main.js"></script>
+</body>
+</html>
